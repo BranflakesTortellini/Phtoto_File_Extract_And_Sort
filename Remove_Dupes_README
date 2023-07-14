@@ -1,35 +1,26 @@
-Duplicate File and Folder Remover (Remove_Dupes.ipynb)
+# Duplicate File and Folder Remover (Remove_Dupes.ipynb)
+
 This script helps you remove duplicate files and folders within a specified directory. It scans the directory and its subdirectories, identifying duplicates based on file names and attributes such as file size and type. The script removes duplicate files and folders, including any resulting empty directories.
 
-Prerequisites
-Python 3.x installed on your system
-Required Python packages: os, tkinter
-Setup
-Ensure that you have Python 3.x installed on your system.
-Save the script to a Jupyter Notebook file with the name Remove_Dupes.ipynb.
-Usage
-Launch Jupyter Notebook.
-Navigate to the directory where you saved the Remove_Dupes.ipynb file.
-Open the notebook file.
-Follow the instructions within the notebook to run the script.
-A file dialog window will appear.
-Select the target directory containing the files and folders you want to check for duplicates.
-The script will scan the directory and remove duplicate files and folders based on file names and attributes.
-Any resulting empty directories will also be removed.
-Once the process is complete, a success message will be displayed indicating that duplicate files and folders, including empty folders, have been removed.
-Note
-The script uses the Tkinter library to provide a file dialog for selecting the target directory.
-Duplicate files are identified based on the presence of the word "copy" in the file name or an enumeration like " (1)" or " (2)" at the end of the file name.
-Duplicate folders are identified based on having the same name.
-Duplicate files and folders are removed, preserving unique files and folders.
-Empty directories are removed after the duplicate removal process.
-Example
-Launch Jupyter Notebook and navigate to the directory where you saved the Remove_Dupes.ipynb file.
-Open the notebook file.
-Follow the instructions within the notebook to run the script.
-A file dialog window will appear.
-Select the directory you want to check for duplicate files and folders.
-The script will identify and remove duplicate files and folders based on the specified criteria.
-Any resulting empty directories will also be removed.
-Once the process is complete, a success message will be displayed indicating that duplicate files and folders, including empty folders, have been removed.
-Please let me know if you need any further assistance or have additional questions!
+## Prerequisites
+- Python 3.x installed on your system
+- Required Python packages: `os`, `tkinter`
+
+## Usage
+1. Launch Jupyter Notebook.
+2. Navigate to the directory where you saved the `Remove_Dupes.ipynb` file.
+3. Open the notebook file.
+4. Follow the instructions within the notebook to run the script.
+5. The script will prompt you to select a directory using a file dialog.
+6. After selecting the directory, the script will scan it and its subdirectories to identify duplicate files and folders.
+7. Duplicate files with names containing the word "copy" or an enumeration will be removed.
+8. Duplicate files with matching attributes (size and type) will be removed, keeping only one copy.
+9. Duplicate folders will be removed, including any resulting empty directories.
+10. Once the process is complete, duplicate files and folders will be removed from the selected directory.
+
+## Note
+- The script uses the Tkinter library to provide a file dialog for selecting the directory.
+- Duplicate files are identified based on file names containing the word "copy" or an enumeration, and matching file attributes (size and type).
+- Duplicate files are removed, keeping only one copy.
+- Duplicate folders are removed, including any resulting empty directories.
+- This script helps you clean up and organize your directory by removing unnecessary duplicates, optimizing storage space, and improving file management.
