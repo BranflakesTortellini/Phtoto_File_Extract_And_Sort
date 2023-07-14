@@ -1,36 +1,25 @@
-File Sorting and Moving Script (GroupByDateModified.ipynb)
+# File Sorting and Moving Script (GroupByDateModified.ipynb)
+
 This script helps you sort and organize files in a source directory by moving them into subdirectories based on their modification dates. Files are grouped into folders named after the corresponding year and month of their last modification.
 
-Prerequisites
-Python 3.x installed on your system
-Required Python packages: os, shutil, datetime, tkinter
-Setup
-Ensure that you have Python 3.x installed on your system.
-Save the script to a Jupyter Notebook file with the name GroupByDateModified.ipynb.
-Usage
-Open a terminal or command prompt.
-Navigate to the directory where you saved the script.
-Launch Jupyter Notebook by running the following command:
-Copy code
-jupyter notebook
-Jupyter Notebook will open in your web browser.
-In the Jupyter Notebook interface, navigate to the directory where you saved the GroupByDateModified.ipynb file.
-Click on the notebook file to open it.
-Follow the instructions within the notebook to run the script and select the source directory.
-The script will create subdirectories within the source directory based on the modification dates of the files.
-Each file will be moved to the corresponding subdirectory based on its year and month of modification.
-Once the process is complete, a success message will be displayed indicating that files have been sorted and moved successfully.
-Note
-The script uses the Tkinter library to provide a file dialog for selecting the source directory.
-Files are sorted and moved based on their last modification date, which is obtained from the file's modification timestamp.
-The destination subdirectories are created within the source directory using the format "Month Year" (e.g., "July 2023").
-Each file is moved to the corresponding subdirectory based on its year and month of modification.
-The script does not modify or delete any files in the source directory.
-Example
-Launch Jupyter Notebook and navigate to the directory where you saved the GroupByDateModified.ipynb file.
-Open the notebook file.
-Follow the instructions within the notebook to run the script and select the source directory.
-The script will analyze the files and create subdirectories within the source directory based on their modification dates.
-Each file will be moved to the corresponding subdirectory based on its year and month of modification.
-Once the process is complete, a success message will be displayed indicating that files have been sorted and moved successfully.
-Please let me know if you need any further assistance or have additional questions!
+## Prerequisites
+- Python 3.x installed on your system
+- Required Python packages: `os`, `shutil`, `tkinter`
+
+## Usage
+1. Launch Jupyter Notebook.
+2. Navigate to the directory where you saved the `GroupByDateModified.ipynb` file.
+3. Open the notebook file.
+4. Follow the instructions within the notebook to run the script.
+5. The script will prompt you to select a source directory using a file dialog.
+6. After selecting the directory, the script will group the files based on their modification dates and create subdirectories named after the corresponding year and month.
+7. Each file will be moved to its respective subdirectory based on its modification date.
+8. Once the process is complete, the files will be organized into the created subdirectories based on their modification dates.
+
+## Note
+- The script uses the Tkinter library to provide a file dialog for selecting the source directory.
+- The files in the source directory are grouped based on their modification dates.
+- Subdirectories are created for each year and month combination.
+- Each file is moved to its corresponding subdirectory based on its modification date.
+- The script preserves the original directory structure while organizing the files.
+- This script is useful for sorting and organizing files based on their modification dates, providing a more structured and manageable file system.
