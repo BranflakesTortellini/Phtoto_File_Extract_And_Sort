@@ -1,0 +1,31 @@
+Duplicate File and Folder Remover
+This script is designed to help you identify and remove duplicate files and folders within a specified directory. It utilizes file attributes such as file size and file type to identify duplicates and removes them from the directory. Additionally, the script removes empty directories.
+
+Prerequisites
+Python 3.x installed on your system
+Required Python packages: os, tkinter
+Setup
+Ensure that you have Python 3.x installed on your system.
+Save the script to a file with a .py extension, such as duplicate_remover.py.
+Usage
+Open a terminal or command prompt.
+Navigate to the directory where you saved the script.
+Run the script using the following command:
+Copy code
+python duplicate_remover.py
+A file dialog window will appear.
+Select the target directory containing the files and folders you want to check for duplicates.
+The script will remove duplicate files and folders, as well as any empty directories within the selected directory.
+The script will display a success message indicating that duplicate files and folders have been removed, including empty folders.
+Note
+The script uses the Tkinter library to provide a file dialog for selecting the target directory.
+The script identifies duplicates based on the presence of the word "copy" in the file name or an enumeration like " (1)" or " (2)" at the end of the file name.
+Duplicate files and folders are removed, while unique files and folders are preserved.
+Empty directories are removed after the duplicate removal process.
+Example
+Run the script using the provided instructions.
+A file dialog window will appear.
+Select the directory you want to check for duplicate files and folders.
+The script will identify and remove duplicate files and folders based on the specified criteria.
+Any empty directories within the selected directory will also be removed.
+Once the process is complete, a success message will be displayed indicating that duplicate files and folders, including empty folders, have been removed.
